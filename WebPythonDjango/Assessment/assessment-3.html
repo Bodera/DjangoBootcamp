@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>EXERCISE FORMS</title>
+	</head>
+	<body>
+        <!--I take sometime to make this form because I search for more up to date techniques in HTML5, so now lets code-->
+        <!--Name attribute is deprecated use id instead-->
+        <form accept-charset="UTF-8" method="get" id="f-assessment" action="thanks-user.html">
+            <h1>Sing up page</h1>
+            <p>The asterisk <em>(*)</em> references to do not leave a empty label</p>
+        <!--Divs acting as container for just insert a asterisk to indicates a required field-->
+            <!--User first name-->
+                <div class="usrFirstName">
+                    <label for="userFName-id">First Name:</label>
+                    <input id="userFName-id" type="text" name="userFName-id" placeholder="First name" required> <span style="color:red">*</span>
+                </div> 
+            <!--User last name-->
+                <div class="usrLastName">
+                    <label for="userLName-id">Last Name:</label>
+                    <input id="userLName-id" type="text" name="userLName-id" placeholder="Last name" required> <span style="color:red">*</span>
+                </div> 
+            <!--User email-->
+                <div class="usrEmail">
+                    <label for="userEmail-id">Email Address:</label>
+                    <input id="userEmail-id" type="email" name="userEmail-id" placeholder="example@valide.domain.com" required> <span style="color:red">*</span>
+                </div> 
+            <!--User password-->
+               <div class="usrPassword">
+                    <label for="userPassword-id">Password:</label>
+                    <input id="userPassword-id" type="password" name="userPassword-id" placeholder="******" required> <span style="color:red">*</span>
+                </div>
+            <!--User born date-->
+                <div class="usrBornDate">
+                    <label for="userBornDate-id">When you are born?</label>
+                    <input id="userBornDate-id" type="date"  name="userBornDate-id" required> <span style="color:red">*</span>
+                </div>
+            <!--User bank information-->
+                <div>
+                <label>Do you have a credit card or a PayPal?</label>
+                    <select name="usrBankInfo" >
+                        <option value="Yes">Yes, I have</option>
+                        <option value="No">No, I haven't</option>
+                    </select>
+                </div>    
+            <p><input type="submit" name="Submit" value="Submit"></p>
+        </form>
+	</body>
+</html>

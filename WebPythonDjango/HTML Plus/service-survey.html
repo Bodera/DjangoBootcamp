@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Satisfaction survey</title>
+	</head>
+	<body>
+        <form accept-charset="UTF-8" method="get" id="f-survey" action="assessmente-3.html">
+            <p><strong>Exercise: </strong>build a hotel feedback formulary</p>
+            <h4>Are you from inside the US? Or outside US?</h4>
+                <!---->
+                <label for="inusa">Inside:</label>
+                <input id="inusa" type="radio" name="locale" value="">
+                <label for="outusa">Outside:</label>
+                <input id="outusa" type="radio" name="locale" value="">
+            <h4>How was your service?</h4>
+                <!--Dropdown menu bellow-->
+                <select name="quality">
+                    <option value="Great">3-Great</option>
+                    <option value="Ok">2-Ok</option>
+                    <option value="Bad">1-Bad</option>
+                </select>
+                <!--Creating a ranger-->
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Fusce in urna sem. Vivamus vehicula dignissim augue et scelerisque. Etiam quam nisi, molestie ac dolor in, tincidunt tincidunt arcu. Praesent sed justo finibus, fringilla velit quis, porta erat. Donec blandit metus ut arcu iaculis iaculis. Cras nec dolor fringilla justo ullamcorper auctor. Aliquam eget pretium velit. Morbi urna justo, pulvinar id lobortis in, aliquet placerat orci.</p>
+            <div>
+                <input type="range" list="tickmarks">
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="15">
+                        <option value="30">
+                        <option value="45">
+                        <option value="60">
+                        <option value="75">
+                        <option value="90">
+                        <option value="105">
+                    </datalist>
+                </div>
+            <h4>Any other feedback?</h4>
+                <textarea name="feedback" rows="8" cols="80"></textarea>
+            <p><input type="submit" name="Submit" value="Submit"></p>
+        </form>    
+	</body>
+</html>
