@@ -1,0 +1,33 @@
+/* 
+Here I change the size of all my characters inside body tag
+*/
+body{
+    font-size: 20px;
+}
+/* 
+Keep in mind that not every OS will have all kind of fonts
+*/
+#titleHeading{
+    text-align: center;
+    font-family: "Times New Roman";
+}
+/* 
+Definindo o estilo dos meus parágrafos
+*/
+p{
+    font-style: oblique;
+    font-weight: bold;
+    text-align: justify;
+}
+/* 
+Another way to set fonts
+*/
+#firstParagraph{
+    font-family: fantasy;
+}
+/* 
+Atributo em, aqui basicamente manipulo o tamanho fixado na tag body
+*/
+#secondParagraph{
+    font-size: 1.3em;
+}
