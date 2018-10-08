@@ -1,0 +1,7 @@
+fontlibrary.org/en/
+fonts.google.com
+cssfontstack.com
+en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS
+en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows
+
+Você só precisa da referência href da tag <link> + tag rel stylesheet no head do seu documento HTML e por fim especificar a font-family no estilo CSS da página
