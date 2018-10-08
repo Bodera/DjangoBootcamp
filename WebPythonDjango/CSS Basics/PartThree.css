@@ -1,0 +1,51 @@
+/* 
+Se eu quiser afetar todos os elementos do meu documento HTML, uso um asterisco *
+Elementos referenciados por ID não serão afetados
+*/
+
+body{
+    background: grey;
+}
+
+/* 
+Classes são referenciadas seguidas de um ponto . 
+*/
+.firstDiv{
+    color: rebeccapurple;
+}
+.secondDiv{
+    color: green;
+}
+
+/* 
+IDs são referenciados com uma hashtag #
+*/
+#isolatedParagraph{
+    color:darkorange;
+    text-decoration: line-through;
+}
+
+/* 
+Para todas as listas ordenadas exatamente após esse elemento (secondH3)
+*/
+#secondH3 + ol{
+    /* dica de como cirar bordas
+    Propriedade: valor estilo cor
+    */
+    border: 3px dotted purple;
+}
+
+/* 
+Seletores descendentes
+Para todas as tags âncoras dentro de uma lista
+*/
+li a{
+    color: #43e851;
+}
+/* 
+Afetando atributos HTML
+*/
+li a[href="http://pudim.com.br"]{
+    color: firebrick;
+    border: 5px solid deeppink;
+}
