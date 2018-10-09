@@ -39,6 +39,21 @@ div p{
     background: yellow;
 }
 /* 
+Making my iframes resizable just for fun
+*/
+#iframesDiv{
+    resize: both;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: auto;
+    z-index: 1;
+    height: 380px;
+    width: 480px;
+}
+iframe{
+    border: none;
+}
+/* 
 Specifying the style of my text area
 */
 #feedbackArea{
