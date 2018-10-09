@@ -1,6 +1,25 @@
+/* 
+Customizando o estilo do heading
+Perceba que o redimensionamento do browser afeta o bottomH1, mas não o topH1
+*/
 #topH1{
     border: 4px solid blue;
+    width: 30%;
+    /* settando margin para auto eu torno mais responsivo */
+    margin: auto;
+    text-align: center;
+    /* Padding pode receber % ou pixels | 30% é mais ou menos 300px*/
+    padding: 30%;
 }
+/* 
+Para dimensionar a largura use width : valor percentual
+As alterações de posição de texto se ajustarão a sua borda
+*/
 #bottomH1{
     border: 4px solid red;
+    width: 20%;
+    text-align: center;
+    /*ONLY PIXELS margin: top, right, bottom, left */
+    /* you can play with this peace of code */
+    margin: 30px 500px 200px 500px;
 }
