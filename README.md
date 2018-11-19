@@ -1,2 +1,2 @@
 # DjangoBootcamp
-learning path to develop with Django project
+learning path to web development by building a Django project
