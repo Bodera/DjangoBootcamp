@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title> First CSS Assessment </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="SectionTask.css">
+</head>
+
+<body>
+    <!-- First division -->
+    <div class="FirstDiv">
+    <h2 id="firstH2">Welcome to Free Blog!</h2>
+    <p id="firstP">Thanks so much for visiting this site!</p>
+    <h4 id="firstH4">What is this site for?</h4>
+    </div>
+    
+    <!-- Second content division -->
+    <div class="MiddleDiv">
+    <p id="secondP">This site can do three things:</p>
+    
+    <div id="iframesDiv">
+    <!-- Apresentar in line frame aqui -->
+    <iframe src="http://www.youtube.com/embed/uIzU4P7SQMg" width="500px" height="400px" id="myFrame01"><p> Ops.. seu navador não suporta iframes :c </p></iframe>
+        
+    <!-- Apresentar in line frame aqui -->
+    <iframe src="https://www.searchlaboratory.com/2015/03/should-you-use-iframes-on-your-website/" width="500px" height="400px" id="myFrame02"><p> Ops.. seu navador não suporta iframes :c </p></iframe>
+    
+    </div>    
+    <ol>
+        <li id="itemone">Take in the text input</li>
+        <li id="itemsecond">Take in the Log In information</li>
+        <li id="itemtirhd"><a href="http://google.com">Take you to Google</a></li>
+    </ol>
+    
+    <textarea rows="5" cols="60">You can expand this text area </textarea>
+    </div>
+    
+    <!-- Tirth and final div -->
+    <div class="finalDiv">
+    
+    <h4 id="secondH4">Please log in to save your blog post</h4>
+    
+    <form>
+    <label for="email">Email address:</label>
+    <input id="email" name="email" type="email" placeholder="drone@gmail.com" required size="33" pattern=".+@gmail.com" title="Must be a @gmail.com email address">
+    
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password" minlength="5" required placeholder="5 characters at least">
+    <input name="password" type="submit" value="Log in">
+    </form>
+        
+    <p>Questions or Comments? Send us feedback here:</p>
+    
+     <textarea id="feedbackArea" rows="5" cols="60">You can expand this text area </textarea>
+    </div>
+    
+</body>
+
+</html>

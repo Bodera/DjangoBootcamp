@@ -1,0 +1,7 @@
+Use a inspeção de elementos para descobrir a arquitetura e/ou lógica dos sites de outras pessoas
+
+Você pode também customizar facilmente seu website sem ter que alterar efetivamente seu código-fonte
+
+Veja mais sobre especificidade CSS nos links:
+ https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+ https://designshack.net/articles/css/what-the-heck-is-css-specificity
